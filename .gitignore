@@ -134,3 +134,20 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# ————————————
+# CodexCore Symbolic Runtime Specific
+# ————————————
+# Symbolic and Runtime Files
+*.trail
+*.json
+*.log
+
+# Editor/IDE settings
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.tmp
